@@ -7,7 +7,7 @@ var swiper = new Swiper( '.swiper-container.two', {
 		slidesPerView: 'auto',
 		coverflow: {
 			rotate: 0,
-			stretch: 100,
+			stretch: 380,
 			depth: 150,
 			modifier: 1.5,
 			slideShadows : false,
