@@ -514,7 +514,7 @@ button.swiper-pagination-bullet {
     overflow: hidden;
 }
 
-/* .swiper-slide {
+.swiper-slide {
     width: 700px;
     height: auto;
     padding: 0 15px;
@@ -523,7 +523,7 @@ button.swiper-pagination-bullet {
 .two .swiper-slide {
     width: 710px;
 
-} */
+}
 
 * Add or modify these styles */
 .swiper-slide {
