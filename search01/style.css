@@ -545,6 +545,13 @@ button.swiper-pagination-bullet {
 }
 
 /* end */
+.swiper-container {
+    height: auto;
+}
+
+.swiper-slide {
+    min-height: 300px; /* Adjust this value as needed */
+}
 
 .swiper-slide {
     width: 700px;
