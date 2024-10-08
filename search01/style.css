@@ -516,6 +516,37 @@ button.swiper-pagination-bullet {
 
 }
 
+
+/* Updated styles for responsiveness */
+.swiper-slide {
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+    .swiper-slide {
+        width: 600px; /* Fixed width for desktop */
+    }
+}
+
+/* Remove fixed width for .two .swiper-slide */
+.two .swiper-slide {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .two .swiper-slide {
+        width: 600px; /* Fixed width for desktop */
+    }
+}
+
+/* Ensure images maintain aspect ratio */
+.swiper-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
 .swiper-slide {
     width: 700px;
     height: auto;
