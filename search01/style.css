@@ -616,6 +616,12 @@ button.swiper-pagination-bullet {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     width: 12px;
 }
+.swiper-container {
+    direction: ltr !important;
+}
 
+.swiper-wrapper {
+    flex-direction: row !important;
+}
 
 
