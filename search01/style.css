@@ -524,6 +524,7 @@ button.swiper-pagination-bullet {
     width: 710px;
 
 }
+
 /* For mobile */
 @media (max-width: 768px) {
     .two .swiper-slide {
@@ -531,6 +532,7 @@ button.swiper-pagination-bullet {
        height: auto; /* Maintain aspect ratio */
     }
 }
+
 .swiper-slide img {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
