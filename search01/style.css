@@ -555,23 +555,25 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-bullet {
-	background: transparent none repeat scroll 0 0;
-	border: 1px solid #ee0f6f;
-	border-radius: 10px;
-	display: inline-block;
-	height: 10px;
-	opacity: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	width: 26px;
-    transition: 0.2s;
+    background-color: #ddd;  /* Light grey for inactive state */
+    border: none;
+    border-radius: 10px;  /* Rounded rectangle shape */
+    display: inline-block;
+    height: 10px;
+    width: 26px;
+    margin: 0 4px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    vertical-align: middle;  /* Ensure vertical alignment */
 }
 
 .swiper-pagination-bullet-active {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
-    border: medium none;
+    background-color: #484848;  /* Darker grey for active state */
     height: 12px;
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     width: 12px;
+    border-radius: 50%;  /* Circular shape for active state */
+    vertical-align: middle;  /* Ensure vertical alignment */
+    position: relative;
+    top: -.5px;  /* Slight adjustment to visually center the active bullet */
 }
 
